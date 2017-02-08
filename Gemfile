@@ -24,6 +24,7 @@ gem 'devise', '~> 4.2'
 
 gem 'activeadmin', git: 'https://github.com/activeadmin/activeadmin'
 gem 'inherited_resources', git: 'https://github.com/activeadmin/inherited_resources'
+gem 'active_skin'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
