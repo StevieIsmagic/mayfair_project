@@ -5,7 +5,7 @@ def index
 end
 
 def show
-	@post = Post.find(params:[:id])
+	@post = Post.find(params[:id])
 	@posts = Post.order('created_at desc').limit(4).offset(1)
 end
 
