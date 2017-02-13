@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+
+
   get 'pages/president'
 
   get 'pages/board'
